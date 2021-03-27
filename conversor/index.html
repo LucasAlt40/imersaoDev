@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a24c9b7399.js" crossorigin="anonymous"></script>
+
+  <title>Converte Ai</title>
+</head>
+
+<body>
+
+
+  <span id="tema">
+    <label class="switch">
+      <input type="checkbox" onclick="dark()">
+      <span class="slider round"></span>
+    </label>
+  </span>
+
+  <div>
+    <form>
+      <h1>
+        Conversor
+      </h1>
+      <h3>
+        De Dólar para Real
+      </h3>
+      <label id="moeda" for="moeda1">
+        <span>Dólar</span>
+        <input type="text" name="moeda1" id="moeda1" placeholder="Valor">
+      </label>
+
+      <input type="button" id="converter" value="Converter" onclick="conversor()">
+
+      <h2>Valor convertido: </h2>
+      <span id="resultado"></span>
+      <audio src="dinheiro.mp3"></audio>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
