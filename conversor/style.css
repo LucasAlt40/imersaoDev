@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body,
 button,
 input {
@@ -16,7 +17,7 @@ input {
 }
 
 body {
-  
+
   color: #dbedf3;
   background-color: #dbedf3;
 }
@@ -56,14 +57,14 @@ label#moeda {
   flex-direction: column;
 }
 
-label#moeda > span {
+label#moeda>span {
   margin-top: 1rem;
   font-size: 1.2rem;
   font-weight: 500;
   transition: all 0.5s ease-in-out;
 }
 
-label#moeda > input {
+label#moeda>input {
   margin-top: 0.2rem;
   width: 100px;
   height: 30px;
@@ -138,10 +139,10 @@ body.backDark {
   background-color: #283149;
 }
 
-label > input.backDark {
+label>input.backDark {
   background-color: #dbedf3;
   color: #fff;
-  
+
 }
 
 input[type="button"].backDark {
@@ -172,7 +173,7 @@ span#tema {
   height: 34px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -186,8 +187,6 @@ span#tema {
   right: 0;
   bottom: 0;
   background-color: #283149;
-  -webkit-transition: .4s;
-  transition: .4s;
 }
 
 .slider:before {
@@ -198,20 +197,20 @@ span#tema {
   left: 4px;
   bottom: 4px;
   background-color: #00818a;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #dbedf3;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);

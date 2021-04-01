@@ -13,13 +13,6 @@ function conversor() {
 
 
 function dark() {
-  var textDark = document.querySelectorAll('h1, h2, h3, span')
-  console.log(textDark)
-  textDark[0].classList.toggle('textDark')
-  textDark[1].classList.toggle('textDark')
-  textDark[2].classList.toggle('textDark')
-  textDark[3].classList.toggle('textDark')
-  textDark[4].classList.toggle('textDark')
 
   var background = document.querySelector('div')
   background.classList.toggle('backDark')
@@ -33,7 +26,4 @@ function dark() {
   var conversorDark = document.querySelector('#converter')
   conversorDark.classList.toggle('backDark')
 
-  var temaDark = document.querySelectorAll('#tema')
-  temaDark[0].classList.toggle('backDark')
-  temaDark[1].classList.toggle('backDark')
 }
