@@ -9,8 +9,12 @@ Exercícios da semana da ImersãoDev
 
 # 2 - Calculadora
 
-![Conversor](./img/calculadora.png)
+![Calculadora](./img/calculadora.png)
 
-# 3 -  AluraFlix
+# 3 -  Mentalista
 
-![Conversor](./img/aluraflix.png)
+![Mentalista](./img/Mentalista.png)
+
+# 4 -  AluraFlix
+
+![AluraFlix](./img/aluraflix.png)
