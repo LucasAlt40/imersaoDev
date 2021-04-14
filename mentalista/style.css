@@ -48,7 +48,7 @@ body > h1 > span {
 
 #box > button {
   cursor: pointer;
-  color: #404b69;
+  color: black;
   margin-top: 2rem;
   width: 150px;
   height: 30px;
@@ -63,5 +63,5 @@ body > h1 > span {
 
 #box > button:hover {
   background: #0fc9e7;
-  color: black;
+  color: #fcfcfc;
 }

@@ -23,6 +23,20 @@ const frases = [
 "Para se ter sucesso, é necessário amar de verdade o que se faz. Caso contrário, levando em conta apenas o lado racional, você simplesmente desiste. É o que acontece com a maioria das pessoas.",
 "As pessoas ligam a televisão quando querem desligar o cérebro.",
 "Concentre-se naquilo que você é bom, delegue todo o resto.",
+"Se você viver cada dia de sua vida como se fosse o último, um dia você estará certo.",
+"Lembrar que você vai morrer é a melhor maneira que eu conheço para evitar a armadilha de pensar que você tem algo a perder. Você está nú. Não há razão para não seguir seu coração.",
+"Seu tempo é limitado, Então não fique vivendo a vida dos outros.",
+"Não deixe que o ruído da opinião alheia impeça que você escute a sua voz interior.",
+"Computadores são como bicicletas para nossas mentes.",
+"A inovação distingue um líder de um seguidor.",
+"Você tem de agir. E você tem que estar disposto a fracassar... se você tem medo de fracassar, não irá muito longe.",
+"Decidir o que não fazer é tão importante quanto decidir o que fazer.",
+"Criatividade é a arte de conectar ideias",
+"Vamos inventar o amanhã e parar de nos preocupar com o passado.",
+"Voce só fará um excelente trabalho, se este mesmo trabalho for a coisa que você mais ama.",
+"Não tem sentido contratar pessoas inteligentes, e depois lhes dizer o que deve ou não fazer!",
+"A tecnologia move o mundo.",
+"Todos neste país deveriam aprender a programar um computador, pois isto ensina a pensar."
 ]
 
 const frase = document.getElementById('frase')
