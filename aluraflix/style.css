@@ -90,8 +90,9 @@ li:hover a{
 
 .filmes {
   display: flex;
-  width: 50%;
+  width: 100%;
 
+  justify-content: center;
   margin-top: 7rem;
   
 }
