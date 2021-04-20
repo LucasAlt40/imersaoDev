@@ -14,16 +14,9 @@ function conversor() {
 
 function dark() {
 
-  var background = document.querySelector('div')
-  background.classList.toggle('backDark')
-
-  var bodyDark = document.querySelector('body')
-  bodyDark.classList.toggle('backDark')
-
-  var inputDark = document.querySelector('#moeda1')
-  inputDark.classList.toggle('backDark')
-
-  var conversorDark = document.querySelector('#converter')
-  conversorDark.classList.toggle('backDark')
+  var darkTheme = document.querySelectorAll('.darkF')
+  for(const item of darkTheme) {
+    item.classList.toggle('backDark')
+  }
 
 }
